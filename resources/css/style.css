@@ -3,11 +3,17 @@
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+
 }
+
+.header .cursive, .header .striking {
+  font-weight: 200;
+}
+
 
 .main-content {
   position: relative;
-  top: 5.3125rem; /* To offset for fixed header. */
+  margin-top: 5.3125rem; /* To offset for fixed header. */
 }
 
 .center {
@@ -38,15 +44,20 @@ html {
 
 header {
   position: fixed;
+  top: .5em;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  
 }
 
 header .content {
   display: flex;
   align-items: center;
   padding: 1.875rem;
+  font-family: Roboto;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 header .logo {
@@ -115,12 +126,14 @@ header .mobile {
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   height: 43.5rem;
+  background-image: url("/resources/images/banner-landingpage.jpg");
 }
 
 #sign-up-cta {
   padding: 0 5rem 2.5rem 5rem;
+  margin-left: 3%;
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
