@@ -54,10 +54,9 @@ header {
 header .content {
   display: flex;
   align-items: center;
-  padding: 1.875rem;
+  padding: 1rem;
   font-family: Roboto;
-  text-decoration: none;
-  list-style-type: none;
+
 }
 
 header .logo {
@@ -66,6 +65,11 @@ header .logo {
 
 header nav ul {
   display: flex;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
 }
 
 nav li {
